@@ -27,10 +27,10 @@ public class GetMessageCode {
 	//这是 “秒嘀” 的服务，注册后可以免费使用200多条短信
 	//QUERY_PATH是秒嘀的请求地址，可以参考 http://www.miaodiyun.com/doc/https_sms.html
 	private static final String QUERY_PATH = "https://api.miaodiyun.com/20150822/industrySMS/sendSMS";
-	//ACCOUNT_SID是 秒嘀的开发者信息中的ACCOUNT SID
-	private static final String ACCOUNT_SID = "c8474c8baa02405aa441dd292dd075c6";
-	//AUTH_TOKEN是秒嘀的开发者信息中的AUTH TOKEN
-	private static final String AUTH_TOKEN = "30156ce5ab82492b9811733f9b33da9f";
+	//ACCOUNT_SID是 秒嘀的开发者信息中的ACCOUNT SID,需要自己去秒嘀网站获取
+	private static final String ACCOUNT_SID = "";
+	//AUTH_TOKEN是秒嘀的开发者信息中的AUTH TOKEN，需要自己去秒嘀网站获取
+	private static final String AUTH_TOKEN = "";
 	
 	/**
 	 * 发送验证码
